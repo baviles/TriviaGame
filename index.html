@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href= "assets/css/reset.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>Lion King Trivia</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="wrapper">
+                    <h1>Lion King Trivia</h1>
+                </div>
+                <div class="row">
+                    <div id="sidebar">
+                        <h3>Time Remaining:<h3>
+                        <div id="show-number">15
+                        </div>
+                        <button id="buttonStart">Start Timer</button>
+                    </div>
+                </div>
+            </div>
+            <div id="multipleChoice">
+                <div class="col-lg-10">
+                    <div id="question" num="1">
+                        <fieldset>
+                            <form>
+                            <legend>when did the movie lion king come out <i></i></legend>
+                            <input type="radio" name="q" value="correct"/><label for="name"> june 24 1994</label><br />
+                            <input type="radio" name="q" value="wrong" /><label for="name"> december 14 1994</label><br />
+                            <input type="radio" name="q" value="wrong" /><label for="name"> september 16 1994</label><br />
+                            
+                        </form>
+                        </fieldset>
+                    </div>
+                    <div id="question" num="2">
+                        <fieldset>
+                            <form>
+                            <legend>who did the voice of scar? <i></i></legend>
+                            <input type="radio" name="q"  value="wrong"  /><label for="name"> dwayne johnson</label><br />
+                            <input type="radio" name="q"  value="correct" /><label for="name"> jeremy irons</label><br />
+                            <input type="radio" name="q"  value="wrong" /><label for="name"> rowan atkinson</label><br />
+ 
+                        </form>
+                        </fieldset>
+                    </div>
+                    <div id="question" num="3">
+                        <fieldset>
+                            <form>
+                            <legend>who sings i just cant wait to be king <i></i></legend>
+                            <input type="radio" name="q" value="wrong" /><label for="name"> rafiki zazu and simba</label><br />
+                            <input type="radio" name="q" value="wrong" /><label for="name"> azizi pumbaa and timon</label><br />
+                            <input type="radio" name="q" value="correct" /><label for="name"> simba nala and zazu</label><br />
+                        </form>
+                        </fieldset>
+                    </div>
+                    <div id="question" num="4">
+                        <fieldset>
+                            <form>
+                            <legend>what song does simba and nala sing together <i></i></legend>
+                            <input type="radio" name="q" value="wrong" /><label for="name"> be prepared</label><br />
+                            <input type="radio" name="q" value="wrong" /><label for="name"> circle of life</label><br />
+                            <input type="radio" name="q" value="correct" /><label for="name"> can you feel the love tonight</label><br />
+                            
+                        </form>
+                        </fieldset>
+                    </div>
+                    <div id="question" num="5">
+                        <fieldset>
+                            <form>
+                            <legend>whoopi goldberg is what animal in the movie <i></i></legend>
+                            <input type="radio" name="q" value="wrong" /><label for="name"> lion</label><br />
+                            <input type="radio" name="q" value="correct" /><label for="name"> hyena</label><br />
+                            <input type="radio" name="q" value="wrong" /><label for="name"> warthog</label><br />
+                        </form>
+                        </fieldset>
+                    </div>
+                    
+                    </div>
+                    <button id="buttonSubmit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="results">
+            <h1>Lets see how well you know the lion king</h1>
+    <h5>You got this many questions correct:<h5>
+        <div id="answersCorrect"></div>
+        <h5>You got this many questions wrong:<h5>
+        <div id="answersWrong"></div>
+        <button id="buttonRestart">Restart</button>
+    </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../TriviaGame/assets/javascript/app.js"></script>
+</body>
+</html> ```
